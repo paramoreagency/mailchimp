@@ -1,8 +1,14 @@
-#MailChimp
+# MailChimp
 
 A very simple ExpressionEngine plugin that adds a contact to MailChimp.
 
-##Parameters
+## Tag Pairs
+
+`{exp:mailchimp:add_update_subscriber}{/exp:mailchimp:add_update_subscriber}`
+
+`{exp:mailchimp:get_subscriber_info}{/exp:mailchimp:get_subscriber_info}`
+
+### Parameters
 
 	api_key				 - (string)		 - MailChimp API key.
 	list_id				 - (string)		 - MailChimp list id.
@@ -12,7 +18,7 @@ A very simple ExpressionEngine plugin that adds a contact to MailChimp.
 	address:field_name	 - (string)		 - Address fields.
 	custom:field_name	 - (string)		 - Custom fields.
 
-##Tags
+### Variable Tags
 
 	{success}			 - (bool)		 - Was the post a success.
 	{error_string}		 - (string)		 - Error emssage from MailChimp.
